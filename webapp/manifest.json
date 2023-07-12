@@ -120,6 +120,6 @@
     },
     "sap.cloud": {
         "public": true,
-        "service": "umgmycustomapplication"
+        "service": "umgmygreatproject"
     }
 }
