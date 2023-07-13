@@ -3,7 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            <Button id="button" text="Say hello" press=".onButtonPress"/>
+            <Button id="button" text="{i18n>buttonText}" press=".onButtonPress" class="sapUiSmallMargin"/>
         </content>
     </Page>
 </mvc:View>

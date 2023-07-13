@@ -1,7 +1,7 @@
 _schema-version: "3.2"
 ID: umgmycustomapplication
 description: A custom application to consume library
-version: 0.0.1
+version: 1.0.0
 modules:
 - name: umgmycustomapplication-destination-content
   type: com.sap.application.content
@@ -21,6 +21,7 @@ modules:
           ServiceInstanceName: umgmycustomapplication-html5-srv
           ServiceKeyName: umgmycustomapplication-repo-host-key
           sap.cloud.service: umgmygreatproject
+        existing_destinations_policy: ignore
   build-parameters:
     no-source: true
 - name: umgmycustomapplication-app-content

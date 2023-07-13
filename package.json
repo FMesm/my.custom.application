@@ -1,6 +1,6 @@
 {
     "name": "my.custom.application",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "private": true,
     "description": "A custom application to consume library",
     "keywords": [
