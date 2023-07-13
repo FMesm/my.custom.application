@@ -26,3 +26,9 @@ server:
       configuration:
         component: umg.my.custom.application
         ui5Theme: sap_horizon
+    - name: fiori-tools-servestatic
+      afterMiddleware: compression
+      configuration:
+        paths:
+          - path: /resources/umg/my/custom/library
+            src: /home/user/projects/my.custom.library/src/umg/my/custom/library
