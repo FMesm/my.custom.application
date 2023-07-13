@@ -19,18 +19,14 @@
 
 ## my.custom.application
 
-A custom application to consume library
+A custom application to consume library for testing purpose.
+It depends on the library "umg.my.custom.library" and is therefore deployed in the same destination instance of the project "mygreatproject".
+Preview in BAS is configured to consume the library locally.
 
 ### Starting the generated app
 
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply run the following from the generated app root folder:
+In order to launch the generated app, simply run the following from the generated app root folder:
 
 ```
     npm start
 ```
-
-#### Pre-requisites:
-
-1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
-
-
